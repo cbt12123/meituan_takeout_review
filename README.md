@@ -117,8 +117,16 @@ python infer.py
 可以尝试简单修改，做其他输入测试
 
 ## 5. 实验结果
+对训练的Lora进行验证，得到混淆矩阵如下： 
 
-略（尽快整理，可以先看`output_eval`）
+![图片描述](output_eval\evaluation_results_v1.0\confusion_matrix.png)
+
+由于数据原因，只准备了36个数据进行验证，其中正确的为35个，情感分类准确率达到了97.2%，达到较满意的结果。
+
+核心评估指标的输出如下所示，大部分指标达到较高水平： 
+
+![核心评估指标](output_eval\evaluation_results_v1.0\core_metrics.png)
+
 
 ## 6. 备注
 - 如需要已训练好的模型验证发出的实验结果，请联系作者。
