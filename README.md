@@ -78,7 +78,7 @@
 
 ## 3. 环境依赖
 ```
-python=.10.8
+python=3.10.8
 pandans=2.3.1
 torch=2.1.2+cu121
 transformers=4.55.1
