@@ -127,6 +127,10 @@ python infer.py
 
 ![核心评估指标](/output_eval/evaluation_results_v1.0/core_metrics.png)
 
+运行`infer.py`，测试结果如下：
+
+![infer推理结果](/docs/infer.jpg)
+
 
 ## 6. 备注
 - 如需要已训练好的模型验证发出的实验结果，请联系作者。
